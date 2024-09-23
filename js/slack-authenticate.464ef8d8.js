@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["slack-authenticate"],{"0688":function(e,n,t){"use strict";t.r(n);var o=function(){var e=this,n=e._self._c;return n("div")},c=[],a={name:"SlackConnection",beforeRouteEnter(e,n,t){t(()=>{const n=e.query.code;n&&(localStorage.setItem("slackSignToken",n),window.close())})}},l=a,s=t("2877"),u=Object(s["a"])(l,o,c,!1,null,null,null);n["default"]=u.exports}}]);
+//# sourceMappingURL=slack-authenticate.464ef8d8.js.map

@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["teams-authenticate"],{"803f":function(e,n,t){"use strict";t.r(n);var o=function(){var e=this,n=e._self._c;return n("div")},a=[],s={name:"TeamsConnection",beforeRouteEnter(e,n,t){t(()=>{const n=e.query.code;n&&(localStorage.setItem("teamsSignToken",n),window.close())})}},c=s,u=t("2877"),i=Object(u["a"])(c,o,a,!1,null,null,null);n["default"]=i.exports}}]);
+//# sourceMappingURL=teams-authenticate.b6c7580f.js.map
